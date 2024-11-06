@@ -14,7 +14,6 @@ type Localisation struct {
 	Lon  float64 `json:"lon"`  // Longitude de la commune
 }
 
-// Fonction principale du programme
 func main() {
 	maps() // Appelle la fonction maps pour exécuter le code
 }
